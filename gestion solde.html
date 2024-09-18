@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion du Solde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <h2>Gestion du Solde</h2>
+            <label for="add-amount">Ajouter au solde :</label>
+            <input type="number" id="add-amount" placeholder="Entrer un montant à ajouter">
+            <button onclick="updateBalance('add')">Valider</button>
+        </div>
+        <div class="input-group">
+            <label for="subtract-amount">Soustraire du solde :</label>
+            <input type="number" id="subtract-amount" placeholder="Entrer un montant à soustraire">
+            <button onclick="updateBalance('subtract')">Valider</button>
+        </div>
+        <a href="index.html"><button class="nav-button">RETOUR  À LA CARTE</button></a>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
